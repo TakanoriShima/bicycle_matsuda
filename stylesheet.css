@@ -1,0 +1,74 @@
+@charset"UTF-8";
+
+body {
+    height: 100vh;
+    margin: 0;
+    color: #333;
+}
+h2 {
+    position: absolute;
+    background-color: #424040;
+    color: white;
+    margin: -8px 0 0 520px;
+    padding: 2px 8px 2px 8px;
+}
+img.center {
+    width: 100%;
+    height: 600px;
+    object-fit: none;
+}
+img.left {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 30px 0 35%;
+}
+h1 {
+    border-bottom: solid 1px;
+    display: inline-block;
+    margin: 6% 0 3% 0;
+}
+.post {
+    text-align: center;
+}
+.post.clearfix1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 500px 0 30px;
+}
+div#footer {
+    text-align: center;
+    font-size: 5px;
+    padding-bottom: 5px;
+    margin-top: 10%;
+}
+.post.clearfix2 {
+    list-style: none;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
+img.bicycles {
+    width: 250px;
+    height: auto;
+    padding-inline: 10px;
+}
+.font_test {
+    font-weight:  bold;
+}
+p.c {
+    text-align: left;
+}
+ul {
+    list-style: none;
+    display: flex;
+    margin-left: 60%;
+    font-size: 15px;
+}
+li {
+    padding-inline: 12px;
+}
+a {
+    text-decoration: none;
+}
