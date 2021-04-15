@@ -1,4 +1,4 @@
-@charset"UTF-8";
+@charset "UTF-8";
 
 body {
     height: 100vh;
@@ -7,7 +7,7 @@ body {
 }
 h2 {
     position: absolute;
-    background-color: #424040;
+    /* background-color: #424040; */
     color: white;
     margin: -8px 0 0 520px;
     padding: 2px 8px 2px 8px;
@@ -52,7 +52,8 @@ div#footer {
 img.bicycles {
     width: 250px;
     height: auto;
-    padding-inline: 10px;
+    margin-right: 15px;
+    /* padding-inline: 10px; */
 }
 .font_test {
     font-weight:  bold;
@@ -63,12 +64,40 @@ p.c {
 ul {
     list-style: none;
     display: flex;
-    margin-left: 60%;
+    margin-left: 69%;
     font-size: 15px;
+    height: 20px;
 }
 li {
-    padding-inline: 12px;
+    /* padding-inline: 12px; */
+    padding-right: 20px;
 }
-a {
+
+/*追加*/
+#sort > a {
     text-decoration: none;
+    display: block;
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+a img {
+    width: 100%;
+}
+
+li a {
+    color: #000000b8;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #0000005e;
+}
+
+div#sort {
+    width: 850px;
+    margin: 0 auto;
+    height: 50px;
+    display: flex;
 }
